@@ -42,6 +42,7 @@ import { ChauffeursousseComponent } from './chauffeursousse/chauffeursousse.comp
 import { ChauffeurmahdiaComponent } from './chauffeurmahdia/chauffeurmahdia.component';
 import { ChauffeurgabesComponent } from './chauffeurgabes/chauffeurgabes.component';
 import { NotificationComponent } from './notification/notification.component';
+import { NewchauffeurComponent } from './newchauffeur/newchauffeur.component';
 
 @NgModule({
   declarations: [
@@ -77,6 +78,7 @@ import { NotificationComponent } from './notification/notification.component';
     ChauffeurmahdiaComponent,
     ChauffeurgabesComponent,
     NotificationComponent,
+    NewchauffeurComponent,
   ],
   imports: [
     BrowserModule,

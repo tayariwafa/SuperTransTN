@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { ServicesRoutingModule } from './services-routing.module';
+import { NewchauffeurRoutingModule } from './newchauffeur-routing.module';
 import { SharedModule } from '../theme/shared/shared.module';
 import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -10,9 +10,9 @@ import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
   declarations: [],
   imports: [
     CommonModule,
-    ServicesRoutingModule,
+    NewchauffeurRoutingModule,
     NgbDropdownModule,
     SharedModule
   ]
 })
-export class ServicesModule { }
+export class NewchauffeurModule { }

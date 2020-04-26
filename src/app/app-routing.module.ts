@@ -10,7 +10,7 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        redirectTo: '/dashboard/analytics',
+        redirectTo: '/auth/signup',
         pathMatch: 'full'
       },
       {
@@ -146,6 +146,13 @@ const routes: Routes = [
         path: 'profile',
         loadChildren: () => import('./profile/profile.module').then(module => module.ProfileModule)
       }
+      ,
+      {
+        path: 'newchauffeur',
+        loadChildren: () => import('./newchauffeur/newchauffeur.module').then(module => module.NewchauffeurModule)
+      }
+      ,
+      
     ]
   },
   {
